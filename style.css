@@ -1,0 +1,57 @@
+body{
+	min-width:1222px;
+}
+
+.thumbnail{
+	width:400px !important;
+	height:100px;
+	border:1px solid black;
+}
+
+.thumbnail-object{
+	float:left;
+	margin: auto 4px auto 4px;
+	text-align:center;
+	overflow:none;
+	cursor:pointer;
+}
+
+#itembar{
+	margin-left:4px;
+	height:500px;
+	width:420px;
+	background-color:#f9fbfc;
+	boreder: 1px solid #9b9b9b;
+	overflow-y:scroll;
+	padding-left:2px;
+}
+
+ #player{
+	margin-left:20px;
+	width:100%;
+	} 
+	
+#playList{
+	margin-left:20px;
+	width:100%;
+    height:150px;
+    border: 2px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+	/*overflow-y:hidden;*/
+}
+
+.playlist-item{
+	height:120px;
+	width:150px;
+	margin:2px;
+	background-color:red;
+	display: inline-block;
+    vertical-align: middle;
+    cursor:pointer;
+}
+.playlist-item>img{
+	width:100%;
+	height:100%;
+}
